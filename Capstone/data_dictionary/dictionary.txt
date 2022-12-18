@@ -1,0 +1,302 @@
+light_conditions	-1	
+light_conditions	1	bright_light
+light_conditions	2	morning
+light_conditions	3	night
+light_conditions	4	night
+light_conditions	5	night
+crossing	-1	
+crossing	1	crossing
+crossing	2	crossing
+crossing	3	crossing
+crossing	4	crossing
+crossing	5	crossing
+crossing	6	roundabout
+crossing	7	square
+crossing	8	train_crossing
+crossing	9	others
+weather	-1	
+weather	1	normal
+weather	2	light_rain
+weather	3	heavy_rain
+weather	4	snow
+weather	5	fog
+weather	6	high_wind
+weather	7	bright_light
+weather	8	overcast
+weather	9	other
+collision_type	-1	
+collision_type	1	two_vehicules_front
+collision_type	2	two_vehicules_back
+collision_type	3	two_vehicules_side
+collision_type	4	three_or_more_vehicules_chain
+collision_type	5	three_or_more_vehicules_multiple
+collision_type	6	other_collision
+collision_type	7	no_collision
+road_type	1	highway
+road_type	2	national_rd
+road_type	3	regional_rd
+road_type	4	urban_rd
+road_type	5	unpaved_rd
+road_type	6	carpark
+road_type	7	urban_rd
+road_type	9	other_rd
+travelling_direction	-1	
+travelling_direction	1	unidirectional
+travelling_direction	2	bidirectional
+travelling_direction	3	separate_ways
+travelling_direction	4	variable_lanes
+reserved_path	-1	
+reserved_path	0	
+reserved_path	1	cycle_path
+reserved_path	2	cycle_path
+reserved_path	3	reserved_lane
+road_incline	-1	
+road_incline	1	flat
+road_incline	2	incline
+road_incline	3	hill_top
+road_incline	4	hill_down
+road_curve	-1	
+road_curve	1	straight_line
+road_curve	2	left_curve
+road_curve	3	right_curve
+road_curve	4	s_curve
+road_surface	-1	
+road_surface	1	normal
+road_surface	2	wet
+road_surface	3	water_patches
+road_surface	4	flooded
+road_surface	5	snow_ice
+road_surface	6	muddy
+road_surface	7	snow_ice
+road_surface	8	oily_slippery
+road_surface	9	others
+infra_type	-1	
+infra_type	0	
+infra_type	1	tunnel
+infra_type	2	highway_bridge
+infra_type	3	road_intersection
+infra_type	4	railway
+infra_type	5	roundabout
+infra_type	6	pedestrian_zone
+infra_type	7	highway_toll
+infra_type	8	under_repair
+infra_type	9	others
+road_location_accident	-1	
+road_location_accident	0	
+road_location_accident	1	road
+road_location_accident	2	emergency_lane
+road_location_accident	3	road_side
+road_location_accident	4	sidewalk
+road_location_accident	5	cycling_path
+road_location_accident	6	special_lane
+road_location_accident	8	others
+navigation_direction	-1	
+navigation_direction	0	
+navigation_direction	1	postal_address_PR
+navigation_direction	2	postal_address_PK
+navigation_direction	3	no_marking
+vehicule_type	-1	
+vehicule_type	0	
+vehicule_type	1	bicycle
+vehicule_type	2	scooters_blw_50
+vehicule_type	3	mini_cars
+vehicule_type	4	unused_since_2006
+vehicule_type	5	unused_since_2006
+vehicule_type	6	unused_since_2006
+vehicule_type	7	car
+vehicule_type	8	unused_since_2006
+vehicule_type	9	unused_since_2006
+vehicule_type	10	prof_van
+vehicule_type	11	unused_since_2006
+vehicule_type	12	unused_since_2006
+vehicule_type	13	light_truck
+vehicule_type	14	heavy_truck
+vehicule_type	15	heavy_truck
+vehicule_type	16	tractor
+vehicule_type	17	tractor
+vehicule_type	18	public_transport
+vehicule_type	19	tramway
+vehicule_type	20	special_convoy
+vehicule_type	21	scoot_blw_125
+vehicule_type	30	scoot_blw_125
+vehicule_type	31	scoot_blw_125
+vehicule_type	32	scoot_blw_125
+vehicule_type	33	moto
+vehicule_type	34	moto
+vehicule_type	35	quad
+vehicule_type	36	quad
+vehicule_type	37	bus
+vehicule_type	38	car
+vehicule_type	39	train
+vehicule_type	40	tramway
+vehicule_type	41	mini_cars
+vehicule_type	42	mini_cars
+vehicule_type	43	mini_cars
+vehicule_type	50	pedestrian_scooters
+vehicule_type	60	pedestrian_scooters
+vehicule_type	80	electric_bike
+vehicule_type	99	others
+fixed_obstacle_hurt	-1	
+fixed_obstacle_hurt	0	
+fixed_obstacle_hurt	1	parked_vehicule
+fixed_obstacle_hurt	2	tree
+fixed_obstacle_hurt	3	slide_metal
+fixed_obstacle_hurt	4	slide_concrete
+fixed_obstacle_hurt	5	other_slide
+fixed_obstacle_hurt	6	estate
+fixed_obstacle_hurt	7	vertical_device
+fixed_obstacle_hurt	8	post
+fixed_obstacle_hurt	9	urban_furnitures
+fixed_obstacle_hurt	10	wall
+fixed_obstacle_hurt	11	refuge
+fixed_obstacle_hurt	12	sidewalk_edge
+fixed_obstacle_hurt	13	road_side
+fixed_obstacle_hurt	14	fixed_obstacle_on_road
+fixed_obstacle_hurt	15	fixed_obstacle_on_road
+fixed_obstacle_hurt	16	fixed_obstacle_on_road
+fixed_obstacle_hurt	17	water_drain
+mobile_obstacle_hurt	-1	
+mobile_obstacle_hurt	0	
+mobile_obstacle_hurt	1	pedestrian
+mobile_obstacle_hurt	2	vehicule
+mobile_obstacle_hurt	4	vehicule_on_rails
+mobile_obstacle_hurt	5	pet
+mobile_obstacle_hurt	6	wild_animal
+mobile_obstacle_hurt	9	other
+impact_location	-1	
+impact_location	0	
+impact_location	1	front
+impact_location	2	front_right
+impact_location	3	front_left
+impact_location	4	rear
+impact_location	5	rear_right
+impact_location	6	rear_left
+impact_location	7	side_right
+impact_location	8	side_left
+impact_location	9	multiple
+was_doing	-1	
+was_doing	0	
+was_doing	1	straight_line
+was_doing	2	straight_line
+was_doing	3	between_lanes
+was_doing	4	reversing
+was_doing	5	against_traffic
+was_doing	6	crossing_central_separator
+was_doing	7	bus_lane_same_direct
+was_doing	8	bus_lane_opp_direct
+was_doing	9	inserting_into_lane
+was_doing	10	u_turn
+was_doing	11	changing_lane
+was_doing	12	changing_lane
+was_doing	13	lurch
+was_doing	14	lurch
+was_doing	15	turning
+was_doing	16	turning
+was_doing	17	overtaking
+was_doing	18	overtaking
+was_doing	19	crossing_road
+was_doing	20	parking_car
+was_doing	21	avoidance
+was_doing	22	opening_door
+was_doing	23	stationary
+was_doing	24	stationary
+was_doing	25	on_sidewalk
+was_doing	26	others
+engine_type	-1	
+engine_type	0	
+engine_type	1	gas
+engine_type	2	hybrid
+engine_type	3	electric
+engine_type	4	hydrogene
+engine_type	5	human
+engine_type	6	other
+user_type	1	driver
+user_type	2	passenger
+user_type	3	pedestrian
+injury_level	-1	
+injury_level	1	OK
+injury_level	2	not_ok
+injury_level	3	not_ok
+injury_level	4	OK
+gender	1	m
+gender	2	f
+gender	-1	
+journey_reason	-1	
+journey_reason	0	
+journey_reason	1	home_work
+journey_reason	2	home_school
+journey_reason	3	home_grocery
+journey_reason	4	prof
+journey_reason	5	leasure
+journey_reason	9	others
+safety_feat_1	-1	
+safety_feat_1	0	no_equip
+safety_feat_1	1	safety_belt
+safety_feat_1	2	helmet
+safety_feat_1	3	child_safety_features
+safety_feat_1	4	yellow_vest
+safety_feat_1	5	airbag
+safety_feat_1	6	gloves
+safety_feat_1	7	gloves_airbag
+safety_feat_1	8	
+safety_feat_1	9	others
+safety_feat_2	-1	
+safety_feat_2	0	no_equip
+safety_feat_2	1	safety_belt
+safety_feat_2	2	helmet
+safety_feat_2	3	child_safety_features
+safety_feat_2	4	yellow_vest
+safety_feat_2	5	airbag
+safety_feat_2	6	gloves
+safety_feat_2	7	gloves_airbag
+safety_feat_2	8	
+safety_feat_2	9	others
+safety_feat_3	-1	
+safety_feat_3	0	no_equip
+safety_feat_3	1	safety_belt
+safety_feat_3	2	helmet
+safety_feat_3	3	child_safety_features
+safety_feat_3	4	yellow_vest
+safety_feat_3	5	airbag
+safety_feat_3	6	gloves
+safety_feat_3	7	gloves_airbag
+safety_feat_3	8	
+safety_feat_3	9	others
+pedestrian_loc	-1	
+pedestrian_loc	0	
+pedestrian_loc	1	jaywalking
+pedestrian_loc	2	jaywalking
+pedestrian_loc	3	on_cross_road_dark
+pedestrian_loc	4	on_cross_road_lit
+pedestrian_loc	5	on_sidewalk
+pedestrian_loc	6	on_road_side
+pedestrian_loc	7	refuge
+pedestrian_loc	8	parrallel_road
+pedestrian_loc	9	
+pedestrian_action	-1	
+pedestrian_action	0	
+pedestrian_action	1	same_direction_as_vehicule
+pedestrian_action	2	opposing_vehicule
+pedestrian_action	3	crossing
+pedestrian_action	4	hidden
+pedestrian_action	5	playing_running
+pedestrian_action	6	with_pet
+pedestrian_action	9	other
+pedestrian_action	10	board_disembark_vehicule
+pedestrian_action	11	
+pedestrian_group	-1	
+pedestrian_group	1	alone
+pedestrian_group	2	with_someone
+pedestrian_group	3	in_group
+in_out_city	1	out_of_city
+in_out_city	2	in_city
+seat	1	driver
+seat	2	main_pass_front
+seat	3	rear_right
+seat	4	rear_left
+seat	5	rear_central
+seat	6	front_center
+seat	7	side_left
+seat	8	middle_center
+seat	9	side_right
+seat	10	pedestrian
